@@ -22,6 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: #f6f5f8;
 }
 header {
     height: 200px; 
@@ -33,7 +34,10 @@ header {
 .logo {
     height: 80px;
     width: 80px;
-    background-color: bisque;
+    background-image: url('./maçã.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .menu ul{
     display: flex;
@@ -49,9 +53,18 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #f6f5f8;
 }
 .conteudo h1{
     font-size: 96px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 .conteudo p{
     font-size: 32px;
@@ -73,16 +86,30 @@ main {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: lightgray;
+    background-color: #f6f5f8;
 }
+button {
+    color: white;
+    background: blue;
+    transition: background 1s;
+  }
+  
+  button:hover,
+  button:focus {
+    background: #aeaaa3;
+  }
 .destaque {
     width: 50%;
-    background-color: green;
+    background-image: url('./novoiphone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 footer{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: lightgrey;
+    color: rgb(0, 0, 0);
 }
