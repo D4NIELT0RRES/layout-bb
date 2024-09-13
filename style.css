@@ -42,7 +42,15 @@ header {
 }
 main {
     flex-grow: 1;
-    background-color: brown;
+    display: flex;
+}
+.conteudo {
+    width: 50%;
+    background-color: blueviolet;
+}
+.destaque {
+    width: 50%;
+    background-color: green;
 }
 footer{
     height: 100px;
