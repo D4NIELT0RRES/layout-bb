@@ -73,7 +73,7 @@ main {
 .conteudo button{
     height: 96px;
     width: 300px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     font-size: 32px;
 }
@@ -86,8 +86,39 @@ main {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #f6f5f8;
+    background-color: #000000;
 }
+#imagem1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-image: url('./Fonte-20w-Com-Cabo-USB-c-Para-Ip.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-image: url('./airpods123.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-image: url('./oculos_apple.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 button {
     color: white;
     background: blue;
