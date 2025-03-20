@@ -18,4 +18,4 @@ A Apple foi fundada em 1 de abril de 1976 por Steve Wozniak, Steve Jobs e Ronald
 
 ## Autor
 
-- [Daniel Torres](https://www.linkedin.com/in/daniel-torres-007a54217/)
+- [Daniel Torres](https://www.linkedin.com/in/daniel-gomes-torres-890102284/)
